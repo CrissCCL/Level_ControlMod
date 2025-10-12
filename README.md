@@ -56,8 +56,6 @@ A **Processing 4 GUI** is under development to provide:
 
 📸 The interface is currently used for **monitoring and data storage only**.
 
----
-
 ## ⚡ Power Console PCB
 The **custom PCB** integrates:  
 - Dual **AOD4184 MOSFETs** for high-efficiency PWM control  
@@ -65,23 +63,7 @@ The **custom PCB** integrates:
 - Potentiometer for manual reference adjustment  
 - Connector headers for Arduino and sensor interface  
 
----
 
-## 🔬 Educational Focus
-This project is part of a set of **control system laboratory modules**, including:  
-- 🔥 Temperature Control  
-- 🚗 Mobile Robot (PI Control)  
-- ✈️ UAV Attitude Control  
-
-Each module is designed for teaching **digital control**, **signal acquisition**, and **embedded systems design**.
-
----
-
-## 🔧 Future Work
-- 🧰 Complete the Processing 4 GUI for data logging  
-- 📈 Implement real-time plot scaling and CSV export  
-- ⚙️ Tune PID parameters for nonlinear dynamics of the tank  
-- 📡 Add wireless telemetry (ESP32-based extension)  
 
 ---
 
