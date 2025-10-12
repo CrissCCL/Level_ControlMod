@@ -33,20 +33,51 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 - **Data transmission:** Serial output for GUI visualization and logging  
 
 ---
+### Controlled Variables
+- **Temperature** → Temperature value control (stabilization)
 
-## 🧠 Control Strategy
-The closed-loop system implements a **digital PID controller** regulating the tank level based on ultrasonic sensor feedback.
+## 📐 Digital PID Control
 
-\[
-u[k] = u[k-1] + K_p(e[k] - e[k-1]) + K_i T_s e[k] + \frac{K_d}{T_s}(e[k] - 2e[k-1] + e[k-2])
-\]
+The Module uses a discrete PI controller implemented on a Arduino microcontroller.  
+The control law in the digital domain is expressed as:
+
+$$
+u(n) = u(n-1) + K_0 e(n) + K_1 e(n-1)
+$$
+
+Digital PI controller implemented for temperature measured,
+
+$$
+V_{PWM}(n) = V_{PWM}(n-1) + K_0 e(n) + K_1 e(n-1)
+$$
+
+### Parameters:
+The parameters are adjusted for temperature measured,
+
+$$
+K_0 = K_p + \frac{K_p}{2T_i} T_s
+$$
+
+$$
+K_1 = -K_p + \frac{K_p}{2T_i} T_s
+$$
+
+## 🔉 Signal Processing: Low-Pass IIR Filter (1st Order)
+
+To reduce measurement noise, a **first-order IIR low-pass filter** was applied to the temperature signal before feeding it to the controller and the ARX model.  
+
+### 🔹 Filter Equation  
+
+$$
+y(k) = \alpha \cdot x(k) + (1 - \alpha) \cdot y(k-1)
+$$  
 
 Where:  
-- \( e[k] = r[k] - y[k] \) → level error  
-- \( T_s = 0.1\,s \) → sampling time  
-- \( u[k] \) → control signal (PWM duty cycle)  
+- $$x(k)$$: raw sensor measurement at time step $$k$$  
+- $$y(k)$$: filtered output  
+- $$\alpha$$: smoothing factor, $$(0<\alpha<1)$$ 
 
----
+
 
 ## 💻 Processing Interface
 A **Processing 4 GUI** is under development to provide:  
