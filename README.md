@@ -34,7 +34,7 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 
 ---
 ### Controlled Variables
-- **Temperature** → Temperature value control (stabilization)
+- **Temperature** → Level value control (stabilization)
 
 ## 📐 Digital PID Control
 
@@ -45,7 +45,7 @@ $$
 u(n) = u(n-1) + K_0 e(n) + K_1 e(n-1)
 $$
 
-Digital PI controller implemented for temperature measured,
+Digital PI controller implemented for level measured,
 
 $$
 V_{PWM}(n) = V_{PWM}(n-1) + K_0 e(n) + K_1 e(n-1)
@@ -64,7 +64,7 @@ $$
 
 ## 🔉 Signal Processing: Low-Pass IIR Filter (1st Order)
 
-To reduce measurement noise, a **first-order IIR low-pass filter** was applied to the temperature signal before feeding it to the controller and the ARX model.  
+To reduce measurement noise, a **first-order IIR low-pass filter** was applied to the level signal before feeding it to the controller and the model.  
 
 ### 🔹 Filter Equation  
 
