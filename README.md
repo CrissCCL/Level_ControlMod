@@ -30,6 +30,30 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 - **Sampling period:** 0.1 seconds  
 - **Data transmission:** Serial output for GUI visualization and logging  
 
+## ⚠️ Serial Communication Issue on Arduino UNO
+
+### 🧩 Overview
+The **Arduino UNO** can freeze when the serial connection is interrupted — for example, if you close the Serial Monitor or stop the Processing app while data is being transmitted.  
+This issue **does not affect** the **Arduino Leonardo**.
+
+### ⚙️ Technical Cause
+- **UNO:** uses a separate USB–Serial chip (**ATmega16U2**).  
+  → When the PC closes the port, the main MCU (**ATmega328P**) keeps sending data to a disconnected USB bridge, blocking the serial buffer.  
+- **Leonardo:** uses an integrated USB controller (**ATmega32u4**) that detects disconnections and avoids blocking.
+
+🧠 **Additional factor:**  
+UNO’s transmit buffer is only **64 bytes**. If `Serial.print()` is used too often or the port is closed, the buffer fills and freezes the loop
+
+### 💡 Recommendation
+- Prefer **Arduino Leonardo** or **Teensy** for real-time communication.  
+- If using UNO, add checks before sending data:
+  
+```cpp
+if (Serial && Serial.availableForWrite() > 16) {
+  Serial.println(sensorValue);
+}
+
+
 ---
 ### Controlled Variables
 - **Temperature** → Level value control (stabilization)
