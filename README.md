@@ -115,7 +115,7 @@ It is designed **only for monitoring** the temperature module in real time and f
       <sub>GUI preview closed loop</sub>
     </td>
     <td align="center">
-      <img src="docs/GUI1.jpg" alt="GUI preview" width="450"><br>
+      <img src="docs/GUI1.jpg" alt="GUI preview" width="400"><br>
       <sub>GUI preview open loop</sub>
     </td>
   </tr>
