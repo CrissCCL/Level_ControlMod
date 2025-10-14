@@ -111,12 +111,12 @@ It is designed **only for monitoring** the temperature module in real time and f
 <table>
   <tr>
     <td align="center">
-      <img src="docs/GUI.png" alt="PCB Render" width="550">
-      <sub>PCB Render - Version 2</sub>
+      <img src="docs/GUI.png" alt="GUI preview" width="550">
+      <sub>GUI preview closed loop</sub>
     </td>
     <td align="center">
-      <img src="docs/GUI2.jpg" alt="PCB Render" width="600"><br>
-      <sub>PCB Render - Version 3 - Next update </sub>
+      <img src="docs/GUI1.jpg" alt="GUI preview" width="600"><br>
+      <sub>GUI preview open loop </sub>
     </td>
   </tr>
 </table>
