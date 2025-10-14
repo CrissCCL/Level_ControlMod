@@ -52,7 +52,7 @@ UNO’s transmit buffer is only **64 bytes**. If `Serial.print()` is used too of
 if (Serial && Serial.availableForWrite() > 16) {
   Serial.println(sensorValue);
 }
-
+```
 
 ### Controlled Variables
 - **Temperature** → Level value control (stabilization)
