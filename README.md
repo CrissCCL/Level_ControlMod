@@ -111,7 +111,7 @@ It is designed **only for monitoring** the temperature module in real time and f
 <table>
   <tr>
     <td align="center">
-      <img src="docs/GUI.png" alt="GUI preview" width="400">
+      <img src="docs/GUI.png" alt="GUI preview" width="400"><br>
       <sub>GUI preview closed loop</sub>
     </td>
     <td align="center">
