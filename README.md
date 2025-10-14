@@ -54,7 +54,6 @@ if (Serial && Serial.availableForWrite() > 16) {
 }
 
 
----
 ### Controlled Variables
 - **Temperature** → Level value control (stabilization)
 
