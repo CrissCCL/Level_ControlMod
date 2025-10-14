@@ -6,6 +6,10 @@ The setup allows experiments related to **PID control**, **signal conditioning**
 
 The system regulates the **tank water level** through a **PWM-controlled pump** driven by MOSFETs, while a **manual/automatic switch** enables user interaction and comparison between open-loop and closed-loop operation.
 
+## 📂 Contents
+- `/Hardware` → schematic, PCB, Gerbers.
+- `/control_lvl` → C code for Arduino.
+- `/docs` → photos
 
 ## 📊 Project Status
 | Component | Status |
@@ -99,14 +103,31 @@ Where:
 - $$\alpha$$: smoothing factor, $$(0<\alpha<1)$$ 
 
 
+## 🖥️ GUI — Monitoring and Data Logging
 
-## 💻 Processing Interface
-A **Processing 4 GUI** is under development to provide:  
-- Real-time monitoring of water level and control signal  
-- Visualization of reference tracking performance  
-- Data logging for later analysis  
+The graphical user interface (GUI) shown in the photograph is developed using **Processing 4**.  
+It is designed **only for monitoring** the temperature module in real time and for **recording experimental data**.  
 
-📸 The interface is currently used for **monitoring and data storage only**.
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/GUI.png" alt="PCB Render" width="550">
+      <sub>PCB Render - Version 2</sub>
+    </td>
+    <td align="center">
+      <img src="docs/GUI2.jpg" alt="PCB Render" width="600"><br>
+      <sub>PCB Render - Version 3 - Next update </sub>
+    </td>
+  </tr>
+</table>
+
+Key features:
+- Real-time plot of temperature and setpoint.
+- Display of control output (PWM or equivalent).
+- Logging of measurements to files for offline analysis.
+- Simple visualization of system behavior during experiments.
+
+> ⚠️ **Note:** The GUI is for observation and data recording only; it does **not** modify the control system or send commands to the hardware.
 
 ## ⚡ Power Console PCB
 The **custom PCB** integrates:  
@@ -115,6 +136,11 @@ The **custom PCB** integrates:
 - Potentiometer for manual reference adjustment  
 - Connector headers for Arduino and sensor interface  
 
+## 🖼️ Render 3D PCB 
+
+<p align="center">
+<img src="docs/procesolevel.png" alt="PCB render" width="500">
+</p>
 
 ## 📜 License
 MIT License © 2025  
