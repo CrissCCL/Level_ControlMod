@@ -64,6 +64,12 @@ if (Serial) {
 }
 ```
 
+## 🔄 Control Loop
+<p align="center">
+<img src="docs/diagrama nivel.png" alt="Diagrama sistema" width="500">
+</p>
+
+
 ### Controlled Variables
 - **Level** → Level value control (stabilization)
 
