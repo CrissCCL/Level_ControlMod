@@ -7,7 +7,6 @@ The setup allows experiments related to **PID control**, **signal conditioning**
 The system regulates the **tank water level** through a **PWM-controlled pump** driven by MOSFETs, while a **manual/automatic switch** enables user interaction and comparison between open-loop and closed-loop operation.
 
 ## 📂 Contents
-- `/Hardware` → schematic, PCB, Gerbers.
 - `/control_lvl` → C code for Arduino.
 - `/docs` → photos
 
@@ -67,7 +66,7 @@ if (Serial) {
 ## 🔄 Control Loop
 
 <p align="center">
-<img src="docs/diagrama nivel.png" alt="Diagrama sistema" width="500">
+<img src="docs/diagrama nivel.png" alt="Diagrama sistema" width="550">
 </p>
 
 
