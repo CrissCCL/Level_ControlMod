@@ -153,7 +153,7 @@ The **custom PCB** integrates:
 <table>
   <tr>
     <td align="center">
-      <img src="docs/pcb1.jpg" alt="Prototype PCB assembled" width="450"><br>
+      <img src="docs/pcb1.jpg" alt="Prototype PCB assembled" width="500"><br>
       <sub>PCB assembled</sub>
     </td>
     <td align="center">
@@ -161,7 +161,7 @@ The **custom PCB** integrates:
       <sub>PCB assembled in process</sub>
     </td>
     <td align="center">
-      <img src="docs/lvlcontrol.jpg" alt="Complete Setup" width="400"><br>
+      <img src="docs/lvlcontrol.jpg" alt="Complete Setup" width="450"><br>
       <sub>Setup overview</sub>
     </td>
   </tr>
