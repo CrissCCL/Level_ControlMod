@@ -1,7 +1,7 @@
 # 🚰 Water Level Control Module
 
 ## 📖 Overview
-This project focuses on developing a **low-cost educational system** for automatic **water level control**.  
+This project focuses on developing a **educational system** for automatic **water level control**.  
 The setup allows experiments related to **PID control**, **signal conditioning**, and **embedded systems** using Arduino.  
 
 The system regulates the **tank water level** through a **PWM-controlled pump** driven by MOSFETs, while a **manual/automatic switch** enables user interaction and comparison between open-loop and closed-loop operation.
