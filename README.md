@@ -148,5 +148,25 @@ The **custom PCB** integrates:
 <img src="docs/procesolevel.png" alt="PCB render" width="500">
 </p>
 
+## ⚡Physical  Prototype
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/pcb1.jpg" alt="Prototype PCB assembled" width="450"><br>
+      <sub>PCB assembled</sub>
+    </td>
+    <td align="center">
+      <img src="docs/pcb2.jpg" alt="Prototype PCB assembled" width="400"><br>
+      <sub>PCB assembled in process</sub>
+    </td>
+    <td align="center">
+      <img src="docs/lvlcontrol.jpg" alt="Complete Setup" width="400"><br>
+      <sub>Setup overview</sub>
+    </td>
+  </tr>
+</table>
+
+
 ## 📜 License
 MIT License © 2025  
