@@ -57,9 +57,15 @@ if (Serial && Serial.availableForWrite() > 16) {
   Serial.println(sensorValue);
 }
 ```
+or
+```cpp
+if (Serial) {
+  Serial.println(sensorValue);
+}
+```
 
 ### Controlled Variables
-- **Temperature** → Level value control (stabilization)
+- **Level** → Level value control (stabilization)
 
 ## 📐 Digital PID Control
 
