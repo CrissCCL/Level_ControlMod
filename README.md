@@ -123,7 +123,7 @@ Where:
 ## 🖥️ GUI — Monitoring and Data Logging
 
 The graphical user interface (GUI) shown in the photograph is developed using **Processing 4**.  
-It is designed **only for monitoring** the temperature module in real time and for **recording experimental data**.  
+It is designed **only for monitoring** the level module in real time and for **recording experimental data**.  
 
 <table>
   <tr>
@@ -139,7 +139,7 @@ It is designed **only for monitoring** the temperature module in real time and f
 </table>
 
 Key features:
-- Real-time plot of temperature and setpoint.
+- Real-time plot of level and setpoint.
 - Display of control output (PWM or equivalent).
 - Logging of measurements to files for offline analysis.
 - Simple visualization of system behavior during experiments.
