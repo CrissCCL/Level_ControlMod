@@ -114,6 +114,11 @@ Where:
 - $$y(k)$$: filtered output  
 - $$\alpha$$: smoothing factor, $$(0<\alpha<1)$$ 
 
+## :triangular_ruler: Connection Diagram
+
+<p align="center">
+<img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
+</p>
 
 ## 🖥️ GUI — Monitoring and Data Logging
 
