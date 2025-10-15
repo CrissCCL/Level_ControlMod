@@ -180,4 +180,4 @@ The **custom PCB** integrates:
 
 
 ## 📜 License
-MIT License © 2025  
+MIT License
