@@ -106,7 +106,7 @@ To reduce measurement noise, a **first-order IIR low-pass filter** was applied t
 ### 🔹 Filter Equation  
 
 $$
-y(k) = \alpha \cdot x(k) + (1 - \alpha) \cdot y(k-1)
+y(k) =(1 - \alpha)  \cdot x(k) +  \alpha \cdot y(k-1)
 $$  
 
 Where:  
