@@ -17,9 +17,9 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 | PID Control Loop Implementation | ✅ Completed |
 | Power Console PCB (AOD4184 MOSFETs) | ✅ Completed |
 | Manual / Automatic Mode Switch | ✅ Completed |
-| Processing GUI for Monitoring | ⚙️ In Progress |
+| Processing GUI for Monitoring | ✅ Completed |
 | Data Logging Functionality | ⚙️ In Progress |
-| Final System Validation | ⚠️ Not Started |
+| Final System Validation | ⚙️ In Progress |
 
 
 ## ⚙️ System Description
