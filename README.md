@@ -18,7 +18,7 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 | Power Console PCB (AOD4184 MOSFETs) | ✅ Completed |
 | Manual / Automatic Mode Switch | ✅ Completed |
 | Processing GUI for Monitoring | ✅ Completed |
-| Data Logging Functionality | ⚙️ In Progress |
+| Data Logging Functionality | ✅ Completed |
 | Final System Validation | ⚙️ In Progress |
 
 
