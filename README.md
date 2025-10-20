@@ -168,7 +168,7 @@ The **custom PCB** integrates:
       <sub>PCB assembled</sub>
     </td>
     <td align="center">
-      <img src="docs/pcb2.jpg" alt="Prototype PCB assembled" width="400"><br>
+      <img src="docs/pcb2.jpg" alt="Prototype PCB assembled" width="500"><br>
       <sub>PCB assembled in process</sub>
     </td>
     <td align="center">
