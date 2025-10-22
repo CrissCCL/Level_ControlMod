@@ -135,11 +135,10 @@ Where:
 
 | Symbol | Meaning |
 |--------|---------|
-| $$(K)$$ | Steady-state gain |
-| $$(\tau)$$ | Time constant of the process |
+| $$K$$ | Steady-state gain |
+| $$\tau$$ | Time constant of the process |
 
 This model structure was obtained from the experimental step response without assuming a parametric structure beforehand (non-parametric identification).
-
 
 ### 🔎 Results Overview
 
