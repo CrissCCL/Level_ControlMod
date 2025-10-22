@@ -120,6 +120,43 @@ Where:
 <img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
 </p>
 
+## 📊 PI Control Test and First-Order Model Identification
+
+A closed-loop experiment was conducted using a PI controller applied to the water level control system.  
+From the acquired input–output data, a **First-Order** model was identified using a non-parametric step-response method.
+
+### 🔹 Identified  Model
+
+The identified model follows the general first-order transfer function:
+
+$$G(s)=\frac{K}{\tau s + 1}$$
+
+Where:
+
+| Symbol | Meaning |
+|--------|---------|
+| $$(K)$$ | Steady-state gain |
+| $$(\tau)$$ | Time constant of the process |
+
+This model structure was obtained from the experimental step response without assuming a parametric structure beforehand (non-parametric identification).
+
+
+### 🔎 Results Overview
+
+- ✅ The PI controller achieved stable regulation of water level  
+- 🌊 The system dynamics were dominated by a single time constant, consistent with first-order behavior  
+- 🧩 The absence of transport delay simplifies control tuning  
+- 🎯 The identified model accurately reproduced the experimental response  
+- 🧾 This model serves as the basis for controller tuning and validation 
+
+
+### 📈 Experimental Plots
+
+<p align="center">
+<img src="docs/controlSim_Exp2.png" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
+</p>
+
+
 ## 🖥️ GUI — Monitoring and Data Logging
 
 The graphical user interface (GUI) shown in the photograph is developed using **Processing 4**.  
