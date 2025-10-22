@@ -153,7 +153,7 @@ This model structure was obtained from the experimental step response without as
 ### 📈 Experimental Plots
 
 <p align="center">
-<img src="docs/controlSim_Exp2.png" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
+<img src="docs/controlSim_Exp.png" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
 </p>
 
 
