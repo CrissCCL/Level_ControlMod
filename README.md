@@ -19,7 +19,7 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 | Manual / Automatic Mode Switch | ✅ Completed |
 | Processing GUI for Monitoring | ✅ Completed |
 | Data Logging Functionality | ✅ Completed |
-| Final System Validation | ⚙️ In Progress |
+| Final System Validation | ✅ Completed |
 
 
 ## ⚙️ System Description
