@@ -208,7 +208,7 @@ The **custom PCB** integrates:
       <sub>PCB assembled in process</sub>
     </td>
     <td align="center">
-      <img src="docs/lvlcontrol.jpg" alt="Complete Setup" width="450"><br>
+      <img src="docs/lvlcontrol.jpg" alt="Complete Setup" width="600"><br>
       <sub>Setup overview</sub>
     </td>
   </tr>
