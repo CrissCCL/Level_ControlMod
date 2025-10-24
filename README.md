@@ -8,7 +8,6 @@ The system regulates the **tank water level** through a **PWM-controlled pump** 
 
 ## 📂 Contents
 - `/control_lvl` → C code for Arduino.
-- `/docs` → photos
 
 ## 📊 Project Status
 | Component | Status |
@@ -66,11 +65,11 @@ if (Serial) {
 ## 🔄 Control Loop
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/diagrama_nivel.png" alt="Diagrama sistema" width="550">
+<img src="https://github.com/user-attachments/assets/957fee3b-aad1-4faf-adfd-1462c229e427" alt="Diagrama sistema" width="550">
 </p>
 
-
 ### Controlled Variables
+
 - **Level** → Level value control (stabilization)
 
 ## 📐 Digital PID Control
@@ -117,7 +116,7 @@ Where:
 ## :triangular_ruler: Connection Diagram
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/conexiones.png" alt="Esquema de conexiones" width="500">
+<img src="https://github.com/user-attachments/assets/f60ea8f1-6d69-460d-ae31-d151c5ba9422" alt="Esquema de conexiones" width="500">
 </p>
 
 ## 📊 PI Control Test and First-Order Model Identification
@@ -152,9 +151,8 @@ This model structure was obtained from the experimental step response without as
 ### 📈 Experimental Plots
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/controlSim_Exp.png" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
+<img src="https://github.com/user-attachments/assets/c461f447-2a95-4bae-a6e5-aa46dd87229c" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
 </p>
-
 
 ## 🖥️ GUI — Monitoring and Data Logging
 
@@ -164,11 +162,11 @@ It is designed **only for monitoring** the level module in real time and for **r
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/GUI.png" alt="GUI preview" width="400"><br>
+      <img src="https://github.com/user-attachments/assets/f1f75f42-ce8a-465c-a9fb-ea1d8dbad870" alt="GUI preview" width="400"><br>
       <sub>GUI preview closed loop</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/GUI1.jpg" alt="GUI preview" width="400"><br>
+      <img src="https://github.com/user-attachments/assets/62fbed8f-c7f3-4e76-85d8-725b13706de6" alt="GUI preview" width="400"><br>
       <sub>GUI preview open loop</sub>
     </td>
   </tr>
@@ -192,7 +190,7 @@ The **custom PCB** integrates:
 ## 🖼️ Render 3D PCB 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/procesolevel.png" alt="PCB render" width="500">
+<img src="https://github.com/user-attachments/assets/1dfb69ca-ce82-4780-a2aa-99e8c4d943e8" alt="PCB render" width="500">
 </p>
 
 ## ⚡Physical  Prototype
@@ -200,15 +198,15 @@ The **custom PCB** integrates:
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/pcb1.jpg" alt="Prototype PCB assembled" width="500"><br>
+      <img src="https://github.com/user-attachments/assets/0b8b2f6e-41c6-48fb-917a-0f376eb87b35" alt="Prototype PCB assembled" width="500"><br>
       <sub>PCB assembled</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/pcb2.jpg" alt="Prototype PCB assembled" width="400"><br>
+      <img src="https://github.com/user-attachments/assets/dc4f8d14-0b17-4afd-836e-77b98d723287" alt="Prototype PCB assembled" width="400"><br>
       <sub>PCB assembled in process</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/lvlcontrol.jpg" alt="Complete Setup" width="600"><br>
+      <img src="https://github.com/user-attachments/assets/0d722579-5256-4bd1-b425-c781d6621171" alt="Complete Setup" width="600"><br>
       <sub>Setup overview</sub>
     </td>
   </tr>
