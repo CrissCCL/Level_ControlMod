@@ -66,7 +66,7 @@ if (Serial) {
 ## 🔄 Control Loop
 
 <p align="center">
-<img src="docs/diagrama nivel.png" alt="Diagrama sistema" width="550">
+<img src="docs/diagrama_nivel.png" alt="Diagrama sistema" width="550">
 </p>
 
 
