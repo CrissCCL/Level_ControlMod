@@ -66,7 +66,7 @@ if (Serial) {
 ## 🔄 Control Loop
 
 <p align="center">
-<img src="docs/diagrama_nivel.png" alt="Diagrama sistema" width="550">
+<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/diagrama_nivel.png" alt="Diagrama sistema" width="550">
 </p>
 
 
@@ -117,7 +117,7 @@ Where:
 ## :triangular_ruler: Connection Diagram
 
 <p align="center">
-<img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/conexiones.png" alt="Esquema de conexiones" width="500">
 </p>
 
 ## 📊 PI Control Test and First-Order Model Identification
@@ -152,7 +152,7 @@ This model structure was obtained from the experimental step response without as
 ### 📈 Experimental Plots
 
 <p align="center">
-<img src="docs/controlSim_Exp.png" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/controlSim_Exp.png" alt="First-Order Model vs Experimental Comparison (Level)" width="500">
 </p>
 
 
@@ -164,11 +164,11 @@ It is designed **only for monitoring** the level module in real time and for **r
 <table>
   <tr>
     <td align="center">
-      <img src="docs/GUI.png" alt="GUI preview" width="400"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/GUI.png" alt="GUI preview" width="400"><br>
       <sub>GUI preview closed loop</sub>
     </td>
     <td align="center">
-      <img src="docs/GUI1.jpg" alt="GUI preview" width="400"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/GUI1.jpg" alt="GUI preview" width="400"><br>
       <sub>GUI preview open loop</sub>
     </td>
   </tr>
@@ -192,7 +192,7 @@ The **custom PCB** integrates:
 ## 🖼️ Render 3D PCB 
 
 <p align="center">
-<img src="docs/procesolevel.png" alt="PCB render" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/procesolevel.png" alt="PCB render" width="500">
 </p>
 
 ## ⚡Physical  Prototype
@@ -200,15 +200,15 @@ The **custom PCB** integrates:
 <table>
   <tr>
     <td align="center">
-      <img src="docs/pcb1.jpg" alt="Prototype PCB assembled" width="500"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/pcb1.jpg" alt="Prototype PCB assembled" width="500"><br>
       <sub>PCB assembled</sub>
     </td>
     <td align="center">
-      <img src="docs/pcb2.jpg" alt="Prototype PCB assembled" width="400"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/pcb2.jpg" alt="Prototype PCB assembled" width="400"><br>
       <sub>PCB assembled in process</sub>
     </td>
     <td align="center">
-      <img src="docs/lvlcontrol.jpg" alt="Complete Setup" width="600"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Level_ControlMod/main/docs/lvlcontrol.jpg" alt="Complete Setup" width="600"><br>
       <sub>Setup overview</sub>
     </td>
   </tr>
